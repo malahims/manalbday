@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Aloevera';
+  src: url('fonts/Aloevera.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: pink;
+  margin: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  background: pink;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+
+.cool-things {
+  display: flex;
+  justify-content: center;
+}
+
+.cool-thing {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.cool-thing p {
+  margin: 0 10px 0 0;
+}
+
+.cool-thing-info {
+  font-size: 1em;
+  font-family: 'Aloevera', cursive;
+  color: #a13a3a; 
+}
+
+.container::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+h1 {
+  font-family: 'Aloevera', cursive;
+  font-size: 3em;
+  color: #8B0000;
+}
+
+h2 {
+  font-family: 'Aloevera', cursive;
+  font-size: 1.5em;
+  color: #8B0000;
+}
+
+p{
+  font-family: 'Aloevera', cursive;
+  font-size: 2em;
+  color: #8B0000;
+}
+
+img#birthday-image {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+audio {
+  margin-top: 20px;
+}
+
+audio::-webkit-media-controls-panel{
+  background-color: pink;
+}
